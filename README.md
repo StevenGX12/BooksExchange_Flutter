@@ -1,10 +1,9 @@
 # Books Exchange 
-## Overview
-Books Exchange is a mobile app that allows users to exchange unwanted physical books with others for new books that interest them.
 
 ## Table of Contents
 - [Books Exchange](#books-exchange)
   - [Overview](#overview)
+  - [Setting Up](#setting-up)
 - [User Guide](#user-guide)
   - [User Sign Up](#user-sign-up)
   - [User Log In](#user-log-in)
@@ -21,6 +20,43 @@ Books Exchange is a mobile app that allows users to exchange unwanted physical b
   - [UI Improvements](#ui-improvements)
   - [Performance Enhancements](#performance-enhancements)
 
+## Overview
+Books Exchange is a cross-platform mobile app that allows users to exchange unwanted physical books with others for new books that interest them.
+
+## Setting Up
+
+Due to the fact that deploying the app to App Store is not free of charge, the current version of the app is only functional on Android devices
+
+If you are using an Android device, you may download the apk directly from [here](https://github.com/StevenGX12/BooksExchange_Flutter/releases/tag/v1.0) and use the app on your device. 
+
+### Using Android Studio
+
+1. Download Android Studio from [here](https://developer.android.com/studio).
+2. Follow the default installation process to complete installing Android Studio.
+3. Git clone this repo to your local machine.
+4. Open Android Studio, click on **File** on the top left hand corner, navigate to the folder that contains this project and open this project.
+5. From the root directory, go to **lib**, then open up **main.dart**.
+6. In the **Help** tab at the top of Android Studio, click **Find Action**, then search for **Device Manager**. Alternatively, you may be able to find it on the right side of Android Studio.
+![img](./assets/images/setup1.png)
+7. Inside the Device Manager, click on the  :heavy_plus_sign: that says **Create Virtual Device**.
+8. Select a device of your choice (preferrably phone), click **Next**.
+9. Choose **UpsideDownCake** or **Tiramisu** as the system image. Click on the small download button next to the system name and allow the download to complete before clicking **Next**.
+![img](./assets/images/setup2.png)
+10. Give your virtual device a name (optional) and click **Finish** to finish setting up your virtual device.
+11. At the top of Android Studio, in the **Flutter Device Selection**, choose the virutal machine that you just created. If it is not showing up as an option, click **Refresh** and try again.
+![img](./assets/images/setup3.png)
+12. Ensure that **main.dart** is selected next to the **Flutter Device Selection**. Press **Run main.dart** (green triangle).
+13. In the **Help** tab at the top of Android Studio, click **Find Action**, then search for **Running Devices**. Alternatively, you may be able to find it on the right side of Android Studio. This window can be isolated from the rest of the Android Studio and resized so that you can use the virtual device better.
+![img](./assets/images/setup4.png)
+
+### Using BlueStacks X
+1. Download BlueStacks X from [here](https://support.bluestacks.com/hc/en-us/categories/4407981230349-BlueStacks-X)
+2. Follow the default installation process and open BlueStacks X on your computer
+3. Download the app's apk from [here](https://github.com/StevenGX12/BooksExchange_Flutter/releases/tag/v1.0)
+4. Follow the instructions [here](https://support.bluestacks.com/hc/en-us/articles/11054623928717-How-to-install-an-APK-on-BlueStacks-X) to open the apk that you just downloaded to use Books Exchange in BlueStacks X. 
+5. Click on the **Rotate** at the right side of the window to make sure that the screen of the emulator is in portrait mode to ensure best user experience. 
+
+[Back to table of contents](#table-of-contents)
 ## User Guide
 
 ### User Sign Up
