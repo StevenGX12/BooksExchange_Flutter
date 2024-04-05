@@ -27,12 +27,21 @@ Books Exchange is a cross-platform mobile app that allows users to exchange unwa
 
 Due to the fact that deploying the app to App Store is not free of charge, the current version of the app is only functional on Android devices
 
-If you are using an Android device, you may download the apk directly from [here](https://github.com/StevenGX12/BooksExchange_Flutter/releases/tag/v1.0) and use the app on your device. 
+If you are using an Android device, you may download the apk directly from [here](https://github.com/StevenGX12/BooksExchange_Flutter/releases/tag/v1.0) and use the app on your device.
+
+### Using BlueStacks X (Recommended)
+1. Download BlueStacks X from [here](https://support.bluestacks.com/hc/en-us/categories/4407981230349-BlueStacks-X)
+2. Follow the default installation process and open BlueStacks X on your computer
+3. Download the app's apk from [here](https://github.com/StevenGX12/BooksExchange_Flutter/releases/tag/v1.0)
+4. Follow the instructions [here](https://support.bluestacks.com/hc/en-us/articles/11054623928717-How-to-install-an-APK-on-BlueStacks-X) to open the apk that you just downloaded to use Books Exchange in BlueStacks X. 
+5. Click on the **Rotate** at the right side of the window to make sure that the screen of the emulator is in portrait mode to ensure best user experience.
 
 ### Using Android Studio
 
+**Note:** Before downloading Android Studio, you should have the Flutter SDK installed. If you do not, follow the instruction [here](https://docs.flutter.dev/get-started/install/windows/mobile?tab=first-start#install-the-flutter-sdk) to download and install the Flutter SDK first.
+
 1. Download Android Studio from [here](https://developer.android.com/studio).
-2. Follow the default installation process to complete installing Android Studio.
+2. Follow the default installation process to complete installing Android Studio. If it is your first time using Android Studio, follow the instruciton [here](https://docs.flutter.dev/get-started/install/windows/mobile?tab=first-start#configure-android-development) to configure the Android toolchain in Android Studio.
 3. Git clone this repo to your local machine.
 4. Open Android Studio, click on **File** on the top left hand corner, navigate to the folder that contains this project and open this project.
 5. From the root directory, go to **lib**, then open up **main.dart**.
@@ -47,14 +56,7 @@ If you are using an Android device, you may download the apk directly from [here
 ![img](./assets/images/setup3.png)
 12. Ensure that **main.dart** is selected next to the **Flutter Device Selection**. Press **Run main.dart** (green triangle).
 13. In the **Help** tab at the top of Android Studio, click **Find Action**, then search for **Running Devices**. Alternatively, you may be able to find it on the right side of Android Studio. This window can be isolated from the rest of the Android Studio and resized so that you can use the virtual device better.
-![img](./assets/images/setup4.png)
-
-### Using BlueStacks X
-1. Download BlueStacks X from [here](https://support.bluestacks.com/hc/en-us/categories/4407981230349-BlueStacks-X)
-2. Follow the default installation process and open BlueStacks X on your computer
-3. Download the app's apk from [here](https://github.com/StevenGX12/BooksExchange_Flutter/releases/tag/v1.0)
-4. Follow the instructions [here](https://support.bluestacks.com/hc/en-us/articles/11054623928717-How-to-install-an-APK-on-BlueStacks-X) to open the apk that you just downloaded to use Books Exchange in BlueStacks X. 
-5. Click on the **Rotate** at the right side of the window to make sure that the screen of the emulator is in portrait mode to ensure best user experience. 
+![img](./assets/images/setup4.png) 
 
 [Back to table of contents](#table-of-contents)
 ## User Guide
