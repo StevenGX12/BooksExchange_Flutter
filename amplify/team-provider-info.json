@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ichthyologflutter-dev-175756-authRole",
+      "UnauthRoleArn": "arn:aws:iam::490894306389:role/amplify-ichthyologflutter-dev-175756-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::490894306389:role/amplify-ichthyologflutter-dev-175756-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-ichthyologflutter-dev-175756-deployment",
+      "UnauthRoleName": "amplify-ichthyologflutter-dev-175756-unauthRole",
+      "StackName": "amplify-ichthyologflutter-dev-175756",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:490894306389:stack/amplify-ichthyologflutter-dev-175756/75fa55a0-fa19-11ed-b859-02cf7f5342c0",
+      "AmplifyAppId": "d21w6f8nez0k1c"
+    },
+    "categories": {
+      "auth": {
+        "ichthyologflutterf4198a06": {}
+      },
+      "storage": {
+        "s3f7be8891": {}
+      }
+    }
+  }
+}

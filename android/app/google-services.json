@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426539055960",
+    "project_id": "booksexchange-5241f",
+    "storage_bucket": "booksexchange-5241f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426539055960:android:69db24938caa1e7f5dc32d",
+        "android_client_info": {
+          "package_name": "com.example.biggestatheart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0IKG0XbhKKCqCSuS0SCTmQIicV4U7TGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
